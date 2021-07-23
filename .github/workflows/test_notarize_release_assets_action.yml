@@ -21,6 +21,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           cnil_api_key: ${{ secrets.CNIL_API_KEY }}
           # if the cnil_api_key (above) is specified, the following inputs will be ignored:
-          cnil_rest_api_url: ${{ secrets.CNIL_REST_API_URL }}
-          cnil_personal_token: ${{ secrets.CNIL_PERSONAL_TOKEN }}
-          cnil_ledger: ${{ secrets.CNIL_LEDGER_ID }}
+          #cnil_rest_api_url: ${{ secrets.CNIL_REST_API_URL }}
+          #cnil_personal_token: ${{ secrets.CNIL_PERSONAL_TOKEN }}
+          #cnil_ledger: ${{ secrets.CNIL_LEDGER_ID }}
