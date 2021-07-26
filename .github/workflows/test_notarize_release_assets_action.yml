@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Notarize release assets
-        uses: codenotary/notarize-release-assets-action@v1.0.0
+        uses: codenotary/notarize-release-assets-action@v2.0.0
         # uses: codenotary/notarize-release-assets-action@main
         with:
           cnil_grpc_host: ${{ secrets.CNIL_GRPC_HOST }}
