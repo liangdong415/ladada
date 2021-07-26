@@ -14,7 +14,7 @@ jobs:
         uses: codenotary/notarize-release-assets-action@v2.0.0
         # uses: codenotary/notarize-release-assets-action@main
         with:
-          cnil_grpc_host: ${{ secrets.CNIL_GRPC_HOST }}
+          cnil_host: ${{ secrets.CNIL_GRPC_HOST }}
 #           cnil_grpc_port: ${{ secrets.CNIL_GRPC_PORT }}
           cnil_grpc_no_tls: false
           release_url: ${{ github.event.release.url }}
